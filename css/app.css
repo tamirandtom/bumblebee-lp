@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+@font-face {font-family: "Suisse Int'l Medium"; src: url("//db.onlinewebfonts.com/t/501e03d4c0303f394033bcaf435f4b3e.woff2") format("woff2")}
+
+
+.page-preload {
+    opacity: 0;
+}
+
+html,
+body {
+    font-family: 
+    "Suisse Int'l Medium",
+    Roboto,
+    -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#page {
+    padding: 40px;
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+}
+body {
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 56px;
+    color: #FFFFFF;
+    letter-spacing: -0.56px;
+    line-height: 64px;
+    max-width: 600px;
+}
+
+h2 {
+font-size: 32px;
+color: #000000;
+line-height: 42px;
+max-width: 600px;
+
+}
+
+h3 {
+font-size: 40px;
+color: #000000;
+line-height: 42px;
+max-width: 650px;
+}
+
+h4 {
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: -0.2px;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+.email-link {
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.email-link:hover {
+    color: #000000;
+}
+.video-header {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
+}
+
+.section-content {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.section {
+    height: 100%;
+    margin-bottom: 40px;
+    background-position: 50% 50%;
+    animation: mymove 50s infinite;
+    background-size: cover;
+}
+
+  
+  @keyframes mymove {
+    50% {background-position: 60% 0%;}
+  }
+
+
+
+.icon .material-icons {
+    font-size: 40px;
+    color:#fff;
+    margin-top: 40px;
+}
+
+.small-titles {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 160px);
+    position: fixed;
+    top:80px;
+    left: 80px;
+}
+.small-title {
+ 
+font-size: 24px;
+color: #FFFFFF;
+letter-spacing: -0.24px;
+line-height: 32px;
+z-index: 4;
+}
+
+.small-title-right {
+  
+font-size: 24px;
+color: #FFFFFF;
+letter-spacing: -0.24px;
+line-height: 32px;
+z-index: 4;
+}
+
+@media only screen and (max-width: 640px) {
+
+.small-titles {
+    width: calc(100% - 80px);
+    top:40px;
+    left: 40px;
+}
+
+.small-title {
+ 
+font-size: 14px;
+
+}
+.small-title-right {
+  
+font-size: 14px;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 34px;
+
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.email-link {
+font-size: 14px;
+}
+
+.section {
+margin-bottom: 20px;
+}
+
+#page,.section-content {
+padding: 20px;
+}
+}
+
