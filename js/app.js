@@ -2,7 +2,7 @@
   easy_background(".slider",
   
   {
-    slide: ["img/i1.png", "img/i2.png", "img/i3.png"],
+    slide: ["img/i1.jpg", "img/i2.jpg", "img/i3.jpg"],
 
     delay: [3500, 3500, 3500]
   }

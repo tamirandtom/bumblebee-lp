@@ -31,7 +31,7 @@ body {
 }
 
 #page {
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     max-width: 1440px;
     margin: auto;
     height: 100%;    
@@ -220,7 +220,7 @@ margin-bottom: 20px;
 }
 
 #page,.section-content {
-padding: 20px;
+padding: 20px 20px 0 20px;
 }
 }
 
