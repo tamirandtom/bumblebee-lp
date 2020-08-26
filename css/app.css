@@ -130,10 +130,11 @@ h4 {
 
 
 
-.icon .material-icons {
+#arrow {
     font-size: 40px;
     color:#fff;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .small-titles {
@@ -163,13 +164,6 @@ letter-spacing: -0.24px;
 line-height: 32px;
 z-index: 4;
 }
-
-
-
-html:not([data-scroll='0']) .small-titles {top:40px;}
-html:not([data-scroll='0']) .small-title {color:#000;}
-html:not([data-scroll='0']) .small-title-right {color:#000;}
-
 
 
 @media only screen and (max-width: 640px) {
