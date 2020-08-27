@@ -118,14 +118,14 @@ h4 {
     height: 100%;
     padding-top: 40px;
     margin-bottom: 40px;
-    background-position: 50% 50%;
-    animation: mymove 50s infinite;
+    background-position: 40% 40%;
+    animation: mymove 20s infinite;
     background-size: cover;
 }
 
   
   @keyframes mymove {
-    50% {background-position: 60% 0%;}
+    50% {background-position: 60% 60%;}
   }
 
 
@@ -145,6 +145,9 @@ h4 {
     top:40px;
     left: 40px;
     transition: all .3s ease-in-out;
+}
+.small-titles a {
+    text-decoration: none;
 }
 .small-title {
     transition: all .3s ease-in-out;
